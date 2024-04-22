@@ -62,6 +62,7 @@ const RegisterModal = () => {
         errors={errors}
         required
       />
+      {/* Name */}
       <Input
         id="email"
         label="Email"
@@ -70,6 +71,7 @@ const RegisterModal = () => {
         errors={errors}
         required
       />
+      {/* Email */}
       <Input
         id="password"
         type="password"
@@ -79,6 +81,7 @@ const RegisterModal = () => {
         errors={errors}
         required
       />
+      {/* Password */}
     </div>
   );
 
